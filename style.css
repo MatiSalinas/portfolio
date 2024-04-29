@@ -36,3 +36,55 @@ a{
     display: flex;
     gap: 3rem;
 }
+.proyectos{
+    width: 100vw;
+}
+.videoDiv{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    background-color: #1f2937;
+
+}
+
+.videotext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.videoplaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 35vh;
+    width: 40vw;
+    border-radius: 12px;
+}
+.videotitle{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.videosubtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.videobutton {
+    background-color: #3882F6;
+    width: 5rem;
+    padding: 15px;
+    border-radius: 12px;
+    flex-grow: 0;
+    margin-left: 50%;
+}
+
+.videobutton:hover{
+    scale: 1.1;
+}
