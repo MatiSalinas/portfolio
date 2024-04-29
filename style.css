@@ -148,9 +148,31 @@ a{
     gap: 1rem;
     padding: 1rem;
     margin-top: 3rem;
-    width: 45vw;
+    width: 50vw;
     height: 88vh;
     border: #1f2937 solid 2px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
+}
+
+.lineaDivisoraCv{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+}
+
+.lineaDivisoraFinaCv{
+    width: 100%;
+    height: 0.1rem;
+    background-color: rgb(36, 35, 35);
+}
+.linksCv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trabajoCv{
+    display: flex;
+    justify-content: space-between;
 }
