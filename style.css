@@ -88,3 +88,43 @@ a{
 .videobutton:hover{
     scale: 1.1;
 }
+
+.otrosproyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.proyecyostitle{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.cuadros, .txtcuadros{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.cuadro {
+    width: 15rem;
+    height: 15rem;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+.txtcuadro{
+    width: 15rem;
+    height: 15rem;
+text-align: center;}
+.linkimg{
+    width: 100%;
+    height: 100%;
+}
+.imgCuadros{
+    border-radius: 16px;
+    max-height: 15rem;
+    height: inherit;
+    width: inherit;
+    object-fit:cover;
+    overflow: hidden;
+}
