@@ -128,3 +128,18 @@ text-align: center;}
     object-fit:cover;
     overflow: hidden;
 }
+
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvCuadro{
+    margin-top: 3rem;
+    width: 45vw;
+    height: 88vh;
+    border: #1f2937 solid 2px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
