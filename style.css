@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    width: 99vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -26,6 +26,10 @@ header{
 a{
     all: unset;
 }
+a:hover{
+    cursor:crosshair;
+}
+
 .hlogo{
     width: 6rem;
 }
@@ -83,6 +87,7 @@ a{
     border-radius: 12px;
     flex-grow: 0;
     margin-left: 50%;
+    text-align: center;
 }
 
 .videobutton:hover{
@@ -149,7 +154,6 @@ a{
     padding: 1rem;
     margin-top: 3rem;
     width: 50vw;
-    height: 88vh;
     border: #1f2937 solid 2px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
@@ -173,6 +177,11 @@ a{
 }
 
 .trabajoCv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloqueEstudios{
     display: flex;
     justify-content: space-between;
 }
