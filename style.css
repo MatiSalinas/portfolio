@@ -151,7 +151,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     margin-top: 3rem;
     width: 50vw;
     border: #1f2937 solid 2px;
@@ -184,4 +184,8 @@ a:hover{
 .bloqueEstudios, .bloqueCertificados{
     display: flex;
     justify-content: space-between;
+}
+
+.aCv{
+color:#3882F6;
 }
