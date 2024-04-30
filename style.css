@@ -181,7 +181,7 @@ a:hover{
     justify-content: space-between;
 }
 
-.bloqueEstudios{
+.bloqueEstudios, .bloqueCertificados{
     display: flex;
     justify-content: space-between;
 }
