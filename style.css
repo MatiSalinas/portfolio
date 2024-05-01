@@ -13,15 +13,15 @@ body{
 }
 header{
     width: 100%;
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 5rem;
     flex-direction: row;
-    padding: 1rem;
     background-color: #1f2937;
     color: #E5E7EB;
+    padding: 1rem;
+    margin: 0;
 }
 a{
     all: unset;
@@ -39,13 +39,29 @@ a:hover{
     display: flex;
     gap: 3rem;
 }
+
+.cvMenu,.contactoMenu{
+    padding: .4rem;
+}
+.proyectosMenu{
+    padding: .4rem;
+    border-left: 2px #2a384b solid;
+    border-right: 2px #2a384b solid;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+
 .proyectos{
-    width: 100vw;
+    width: inherit;
+
+    margin: 0;
 }
 .videoDiv{
-    padding: 50px;
+    width: 100vw;
+    padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 150px;
     background-color: #1f2937;
 
@@ -55,6 +71,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
 }
 .videoplaceholder{
     display: flex;
@@ -99,11 +116,7 @@ a:hover{
     align-items: center;
     gap: 30px;
 }
-.proyecyostitle{
-    color:#1f2937;
-    font-size: 36px;
-    font-weight: 900;
-}
+
 .cuadros, .txtcuadros{
     display: flex;
     gap: 6rem;
@@ -138,6 +151,7 @@ a:hover{
 .pProyecto{
     font-size: large;
 }
+
 
 .cv{
     display: flex;
@@ -188,3 +202,36 @@ a:hover{
 .aCv{
 color:#3882F6;
 }
+
+
+/* Para celulares */
+@media only screen and (max-width: 767px) {
+    .cuadros{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .cvCuadro{
+        width: 80vw;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .linksCv{
+        flex-wrap: wrap;
+    }
+
+    .videoDiv{
+        flex-wrap: wrap;
+    }
+    .videotext{
+        align-items: center;
+        justify-content: center;
+    }
+    .videoplaceholder{
+        width: auto;
+    }
+  }
