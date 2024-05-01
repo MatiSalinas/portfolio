@@ -27,9 +27,8 @@ a{
     all: unset;
 }
 a:hover{
-    cursor:crosshair;
+    cursor:pointer;
 }
-
 .hlogo{
     width: 6rem;
 }
