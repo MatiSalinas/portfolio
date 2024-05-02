@@ -57,6 +57,12 @@ a:hover{
 
     margin: 0;
 }
+
+.proyectostitle{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
 .videoDiv{
     width: 100vw;
     padding: 1rem;
@@ -97,6 +103,7 @@ a:hover{
 }
 
 .videobutton {
+    position: relative;
     background-color: #3882F6;
     width: 5rem;
     padding: 15px;
@@ -104,6 +111,7 @@ a:hover{
     flex-grow: 0;
     margin-left: 50%;
     text-align: center;
+    right: 3.5rem;
 }
 
 .videobutton:hover{
